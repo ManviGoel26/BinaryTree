@@ -1,1 +1,11 @@
-
+Class Node{
+  int data;
+  Node left, right, parent;
+  
+  Node(int d){
+    data = d;
+    left = null;
+    right = null;
+    parent = null;
+    }
+  }
